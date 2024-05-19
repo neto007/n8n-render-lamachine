@@ -35,11 +35,11 @@ services:
       - key: N8N_LOG_LEVEL
         value: verbose
       - key: GENERIC_TIMEZONE
-        value: Europe/Paris
+        value: America/Sao_Paulo
       - key: TZ
-        value: Europe/Paris
+        value: America/Sao_Paulo
       - key: N8N_DEFAULT_LOCALE
-        value: fr
+        value: pt_BR
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
       - key: WEBHOOK_URL
